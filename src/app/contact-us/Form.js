@@ -102,7 +102,7 @@ const Form = () => {
           />
           <Button type="submit" className="w-full" disabled={emailSent && true}>
             <p className={'relative w-fit'}>
-              {!emailSent
+              {emailSent
                 ? 'Thank you, we received your details'
                 : 'Get Your Free Quote Now'}{' '}
               {loading && (
