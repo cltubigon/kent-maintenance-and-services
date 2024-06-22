@@ -6,7 +6,7 @@ const Textarea = forwardRef(function Textarea(
   ref
 ) {
   const defaultStyle =
-    'py-[6px] px-3 w-full text-[16px] text-[#222] rounded-[5px] border-[1px] border-[#c7e9ff] placeholder:text-primary focus-visible:outline-none'
+    'py-[6px] px-3 w-full text-[16px] text-[#222] rounded-[5px] border-[1px] border-secondary placeholder:text-paragraph focus-visible:outline-[1px] focus-visible:outline-secondary'
   return (
     <div>
       <textarea

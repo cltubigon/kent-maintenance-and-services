@@ -9,7 +9,7 @@ import Icon_down from '../../icons/Icon_down'
 const loadFeatures = () =>
   import('@/utilities/framerMotion/features').then((res) => res.default)
 
-const MobileNav = ({ nav }) => {
+const MobileNav = ({parameters: { nav, pathName }}) => {
   const [activeMainItem, setactiveMainItem] = useState('')
   const [activeSubItem, setactiveSubItem] = useState('')
   const [mobileIsOpen, setmobileIsOpen] = useState(false)

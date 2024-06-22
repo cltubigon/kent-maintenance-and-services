@@ -20,7 +20,7 @@ const MainNavigation = () => {
     { path: '/', name: 'Home' },
     {
       name: 'About',
-      // path: '/about',
+      path: '/about',
     },
     {
       name: 'Cleaning services',
@@ -63,7 +63,7 @@ const MainNavigation = () => {
     },
     {
       name: 'Contact us',
-      // path: 'contact-us',
+      path: '/contact-us',
     },
   ]
 
@@ -75,8 +75,8 @@ const MainNavigation = () => {
             'flex justify-start xl:justify-between items-center gap-2 md:gap-4 xl:gap-[unset] max-w-[1150px] w-full mx-auto px-3 md:px-6 xl:px-0  z-[999]'
           }
         >
-          <MobileNav nav={[...nav, ...nav2]} />
-          <DesktopNav nav={nav} />
+          <MobileNav parameters={{ nav: [...nav, ...nav2], pathName }} />
+          <DesktopNav parameters={{ nav, pathName }} />
           <div className={'flex w-full lg:w-[unset] relative'}>
             <Link
               href={'/'}
@@ -91,7 +91,7 @@ const MainNavigation = () => {
               />
             </Link>
           </div>
-          <DesktopNav nav={nav2} />
+          <DesktopNav parameters={{ nav: nav2, pathName }} />
         </div>
       </div>
     </>

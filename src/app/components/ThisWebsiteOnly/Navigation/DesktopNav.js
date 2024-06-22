@@ -1,15 +1,30 @@
 'use client'
 import Link from 'next/link'
+// import { usePathName } from 'next/navigation'
 
-const DesktopNav = ({ nav }) => {
+const DesktopNav = ({ parameters: { nav, pathName } }) => {
   return (
     <div className={'hidden xl:flex gap-10 flex-wrap gap-y-3 items-center'}>
       {nav.map((item, index) => {
         const { name, path } = item
         return (
           <div key={index} className={'group/main relative'}>
-            <div className="font-semibold">
-              {path ? <Link href={path}>{name}</Link> : name}
+            <div className="font-semibold relative">
+              {path ? (
+                <Link
+                  href={path}
+                  className={`${pathName === path && 'text-primary'}`}
+                >
+                  {name}
+                </Link>
+              ) : (
+                name
+              )}
+              <div
+                className={`absolute -bottom-1 h-[1px] ${
+                  pathName === path ? 'w-full' : 'w-0'
+                } group-hover/main:w-full ease-in-out bg-primary transition-all duration-300`}
+              ></div>
             </div>
             <div
               className={
@@ -48,7 +63,11 @@ const DesktopNav = ({ nav }) => {
                           'hidden group-hover/sub:block absolute top-0 right-[-210px] 2xl:right-[-260px] w-fit z-20 leading-[22px] text-[14px] font-semibold '
                         }
                       >
-                        <div className={'bg-white shadow-md divide-y-[1px] divide-neutral-100'}>
+                        <div
+                          className={
+                            'bg-white shadow-md divide-y-[1px] divide-neutral-100'
+                          }
+                        >
                           {sub?.array?.map((sub2, i) => {
                             return (
                               <div key={i} className={'relative'}>
