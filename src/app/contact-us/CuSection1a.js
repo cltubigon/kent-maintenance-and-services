@@ -66,7 +66,7 @@ const CuSection1a = () => {
             <p className={''}>Medway</p>
           </div>
         </div>
-        <p className={'mt-5 text-center bg-secondary-100 p-3 rounded-md shadow-sm border-2 border-secondary-300'}>
+        <p className={'mt-5 text-center bg-neutral-200 p-3 rounded-md shadow-sm border-2 border-neutral-400 textwh'}>
           Most areas in Kent. Depending on location there may be additional
           travel costs but this will be confirmed in any quotes.
         </p>
