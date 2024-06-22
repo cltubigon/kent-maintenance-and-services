@@ -7,7 +7,7 @@ const CuSection2 = () => {
   return (
     <div className="py-10 md:py-[80px]">
       <div className={'container md:px-6 lg:px-10 xl:px-0'}>
-        <p className={'font-tinos text-center text-5xl font-bold'}>
+        <p className={'font-tinos text-center text-4xl md:text-5xl font-bold'}>
           Why Choose Us
         </p>
         <div

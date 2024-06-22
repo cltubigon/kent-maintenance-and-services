@@ -1,22 +1,39 @@
 'use client'
-import React from 'react'
+import React, { useState } from 'react'
 import Input from '../components/inputsFields/InputGroup/Input'
 import Button from '../components/Button'
 import { useForm } from 'react-hook-form'
 import { sendEmail } from './actions'
+import Icon_spinner from '../components/icons/Icon_spinner'
 
 const Form = () => {
-  const { register, handleSubmit, formState } = useForm()
+  const { register, handleSubmit, reset, formState } = useForm()
+  const [emailSent, setemailSent] = useState(false)
+  const [loading, setloading] = useState(false)
+
   const { errors } = formState
-  const onSubmit = (data) => {
-    if (data.are_you_a_bot) {
-      console.log('do not submit data', data)
-    } else {
-      console.log('submit data', data)
-      sendEmail()
-    }
+
+  const submitData = async () => {
+    setloading(true)
+    const timeout = setTimeout(() => {
+      setloading(false)
+      setemailSent(true)
+    }, 1500)
+
+    return () => clearTimeout(timeout)
   }
-  console.log('errors', errors)
+
+  const onSubmit = async (data) => {
+    reset()
+    // if (data.are_you_a_bot) {
+    //   console.log('do not submit data')
+    // } else {
+    //   if (emailSent) return
+    //   await submitData()
+    //   await sendEmail({ data })
+    // }
+  }
+
   return (
     <>
       <form onSubmit={handleSubmit(onSubmit)}>
@@ -83,8 +100,15 @@ const Form = () => {
             className="hidden"
             {...register('are_you_a_bot')}
           />
-          <Button type="submit" className="w-full">
-            Get Your Free Quote Now
+          <Button type="submit" className="w-full" disabled={emailSent && true}>
+            <p className={'relative w-fit'}>
+              {!emailSent
+                ? 'Thank you, we received your details'
+                : 'Get Your Free Quote Now'}{' '}
+              {loading && (
+                <Icon_spinner className="absolute -right-8 top-0 bottom-0 my-auto animate-spin" />
+              )}
+            </p>
           </Button>
         </div>
       </form>

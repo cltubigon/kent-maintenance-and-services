@@ -5,6 +5,7 @@ import Icon_youtube from '../components/icons/Icon_youtube'
 import Link from 'next/link'
 import Icon_phone from '../components/icons/Icon_phone'
 import Form from './Form'
+import Icon_email from '../components/icons/Icon_email'
 
 const CuSection1 = () => {
   return (
@@ -19,11 +20,17 @@ const CuSection1 = () => {
           className={'flex flex-col w-full lg:min-w-[390px] lg:max-w-[390px]'}
         >
           <Divider className="w-[50px] ml-0" />
-          <p className={'font-tinos text-5xl font-bold mt-4'}>Contact</p>
+          <p className={'font-tinos text-4xl md:text-5xl font-bold mt-4'}>Contact</p>
           <div className={'text-paragraph'}>
-            <Link href="mailto:kentmaintenance.co.uk" className="text-primary">
-              <p className={'mt-7'}>info@kentmaintenance.co.uk</p>
-            </Link>
+            <div className={'flex my-5 gap-2 items-center'}>
+              <Icon_email className="size-5" />
+              <Link
+                href="mailto:kentmaintenance.co.uk"
+                className="text-primary"
+              >
+                <p className={''}>info@kentmaintenance.co.uk</p>
+              </Link>
+            </div>
             <div className={'flex my-5 gap-2 items-center'}>
               <Icon_phone className="size-4" />
               <Link href="tel:08000025962" className="text-primary">

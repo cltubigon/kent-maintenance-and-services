@@ -7,10 +7,28 @@ const transport = nodemailer.createTransport({
   secure: true,
   auth: {
     user: 'resend',
-    pass: '',
+    pass: process.env.RESEND_API_KEY,
   },
 })
 
-export const sendEmail = () => {
-  console.log('nodemailer', nodemailer)
+export const sendEmail = async ({ data }) => {
+  const { email, firstName, lastName, phoneNumber, postCode } = data
+  await transport.sendMail({
+    from: {
+      name: `${firstName} ${lastName}`,
+      address: 'website@kentmaintenance.co.uk',
+    },
+    to: email,
+    subject: 'Kent maintenance website new contact',
+    html: `
+    <!DOCTYPE html>
+    <html>
+      <body>
+        <p>Name: ${firstName} ${lastName}</p>
+        <p>Email: ${email}</p>
+        <p>Phone: ${phoneNumber}</p>
+        <p>Postal code: ${postCode}</p>
+      </body>
+    </html>`,
+  })
 }
