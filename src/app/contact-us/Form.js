@@ -18,20 +18,20 @@ const Form = () => {
     const timeout = setTimeout(() => {
       setloading(false)
       setemailSent(true)
+      reset()
     }, 1500)
 
     return () => clearTimeout(timeout)
   }
 
   const onSubmit = async (data) => {
-    reset()
-    // if (data.are_you_a_bot) {
-    //   console.log('do not submit data')
-    // } else {
-    //   if (emailSent) return
-    //   await submitData()
-    //   await sendEmail({ data })
-    // }
+    if (data.are_you_a_bot) {
+      console.log('do not submit data')
+    } else {
+      if (emailSent) return
+      await submitData()
+      await sendEmail({ data })
+    }
   }
 
   return (
