@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link'
 import Button from '../Button'
-import { logout } from '@/app/(auth)/signOut/actions'
+import { logout } from '@/app/_(auth)/signOut/actions'
 import { createClient } from '@/config/supabase/supabaseClient'
 import { useEffect, useState } from 'react'
 

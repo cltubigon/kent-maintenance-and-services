@@ -16,21 +16,14 @@
   }
 }
 
-/* body { */
-  /* color: rgb(var(--foreground-rgb)); */
-/* } */
+/* body {
+  p {
+    color: #5d5d5d;
+  }
+} */
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
-  }
-  .quill p strong {
-    font-family: '__franklinGothicDemiCond_6deddf';
-  }
-
-  .quill ul {
-    padding-left: 50px;
-    list-style-type: disc;
-    line-height: 24px;
   }
 }
