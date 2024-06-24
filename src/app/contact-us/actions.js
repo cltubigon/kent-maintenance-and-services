@@ -18,7 +18,7 @@ export const sendEmail = async ({ data }) => {
       name: `${firstName} ${lastName}`,
       address: 'website@kentmaintenance.co.uk',
     },
-    to: email,
+    to: 'info@kentmaintenance.co.uk',
     subject: 'Kent maintenance website new contact',
     html: `
     <!DOCTYPE html>

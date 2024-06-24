@@ -7,11 +7,12 @@ const CcdSection3 = () => {
     <div className="py-10 md:py-[80px]">
       <div
         className={
-          'container md:px-6 lg:px-10 xl:px-0 grid grid-cols-1 lg:grid-cols-2  lg:divide-x-[1px]'
+          'container md:px-6 lg:px-10 xl:px-0 grid grid-cols-1 lg:grid-cols-2 lg:divide-x-[1px] max-sm:gap-8'
         }
       >
+        {/* Column1 */}
         <div className={'lg:pr-10 flex flex-col gap-3'}>
-          <h3 className={'text-lg font-semibold'}>
+          <h3 className={'font-tinos text-2xl font-bold'}>
             Regular domestic cleaning in Edinburgh
           </h3>
           <p className={'text-paragraph'}>
@@ -56,12 +57,13 @@ const CcdSection3 = () => {
               cleaning industry with more than 30 years of experience.
             </p>
           </div>
-          <p className={'text-primary text-3xl font-semibold mt-5'}>
+          <p className={'text-primary text-3xl font-bold mt-3'}>
             From £15.80 per hour
           </p>
         </div>
+        {/* Column2 */}
         <div className={'lg:pl-10 flex flex-col gap-3'}>
-          <h3 className={'text-lg font-semibold'}>
+          <h3 className={'font-tinos text-2xl font-bold'}>
             Regular domestic cleaning in Edinburgh
           </h3>
           <p className={'text-paragraph'}>
@@ -83,7 +85,7 @@ const CcdSection3 = () => {
             Still have a question? View some of our most frequently asked
             questions
           </p>
-          <p className={'text-primary text-3xl font-semibold mt-5'}>
+          <p className={'text-primary text-3xl font-bold mt-3'}>
             £40 booking fee + £15 per hour
           </p>
 

@@ -10,6 +10,7 @@
     "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
+    "@img-comparison-slider/react": "^8.0.2",
     "@next/bundle-analyzer": "^14.2.2",
     "@next/third-parties": "^14.2.3",
     "@stripe/react-stripe-js": "^2.7.0",
@@ -29,6 +30,7 @@
     "next-cloudinary": "^6.5.2",
     "nodemailer": "^6.9.14",
     "react": "^18",
+    "react-compare-slider": "^3.1.0",
     "react-dom": "^18",
     "react-dropzone": "^14.2.3",
     "react-hook-form": "^7.51.3",

@@ -30,7 +30,11 @@ const Homepage = () => {
           }
         >
           <div className="flex flex-col gap-2">
-            <h3 className={'text-[22px] max-sm:leading-7 md:text-[26px] mb-4 font-semibold'}>
+            <h3
+              className={
+                'font-tinos text-[22px] max-sm:leading-7 md:text-[26px] mb-4 font-bold'
+              }
+            >
               Our local house cleaning services
             </h3>
             <p className={'text-paragraph'}>
@@ -46,7 +50,11 @@ const Homepage = () => {
             </p>
           </div>
           <div className="flex flex-col gap-2">
-            <h3 className={'text-[22px] max-sm:leading-7 md:text-[26px] mb-4 font-semibold'}>
+            <h3
+              className={
+                'font-tinos text-[22px] max-sm:leading-7 md:text-[26px] mb-4 font-bold'
+              }
+            >
               Our local house cleaning services
             </h3>
             <p className={'text-paragraph'}>

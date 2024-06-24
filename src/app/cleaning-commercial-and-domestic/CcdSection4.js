@@ -16,7 +16,11 @@ const CcdSection4 = () => {
         alt="texture background"
       /> */}
         <div className={'container md:px-6 lg:px-10 xl:px-0'}>
-          <h2 className={'text-3xl font-semibold text-center'}>
+          <h2
+            className={
+              'font-tinos text-3xl md:text-4xl font-semibold text-center'
+            }
+          >
             How much does a house cleaner cost in Edinburgh?
           </h2>
 
@@ -60,7 +64,9 @@ const CcdSection4 = () => {
             For an online estimate, please use our online booking service to get
             the exact rates for your property.
           </p>
-          <Button variant="light" className='mx-auto mt-10'>Book online</Button>
+          <Button variant="light" className="mx-auto mt-10">
+            Book online
+          </Button>
         </div>
       </div>
     </div>

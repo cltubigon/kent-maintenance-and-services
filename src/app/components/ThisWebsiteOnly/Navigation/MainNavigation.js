@@ -36,7 +36,7 @@ const MainNavigation = () => {
         },
         {
           name: 'Professional oven cleaning',
-          // path: '/professional-oven-cleaning',
+          path: '/professional-oven-cleaning',
         },
       ],
     },

@@ -56,7 +56,7 @@ const CcdSection1 = () => {
             <Button>Book your cleaner online</Button>
             <Button>Enquire about our services</Button>
           </div>
-          <p className={'text-2xl md:text-3xl text-balance text-center mt-8 font-semibold'}>
+          <p className={'font-tinos text-3xl md:text-3xl text-balance text-center mt-8 font-semibold'}>
             For a free personalised quote, call Maid2Clean on 0131 510 6401
           </p>
         </div>
