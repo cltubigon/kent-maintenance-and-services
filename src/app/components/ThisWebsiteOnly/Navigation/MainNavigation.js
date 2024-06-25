@@ -32,7 +32,7 @@ const MainNavigation = () => {
         },
         {
           name: 'Professional carpet and upholstery cleaning',
-          // path: '/professional-carpet-and-upholstery-cleaning',
+          path: '/professional-carpet-and-upholstery-cleaning',
         },
         {
           name: 'Professional oven cleaning',
@@ -49,7 +49,7 @@ const MainNavigation = () => {
       array: [
         {
           name: 'Grounds keeping and gardening services',
-          // path: 'grounds-keeping-and-gardening-services',
+          path: 'grounds-keeping-and-gardening-services',
         },
         {
           name: 'Home Improvement',

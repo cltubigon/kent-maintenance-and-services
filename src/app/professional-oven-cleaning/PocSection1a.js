@@ -17,35 +17,55 @@ const PocSection1a = () => {
         </p>
         <div className={'flex justify-center flex-wrap gap-y-10 mt-10'}>
           <div className={'w-[33%] lg:w-[25%]'}>
-            <Image className="mx-auto" src={singleOven} alt="single oven" />
+            <Image
+              className="mx-auto"
+              quality={100}
+              src={singleOven}
+              alt="single oven"
+            />
             <p className={'text-center'}>Single Oven</p>
           </div>
 
           <div className={'w-[33%] lg:w-[25%]'}>
-            <Image className="mx-auto" src={doubleOven} alt="double oven" />
+            <Image
+              className="mx-auto"
+              quality={100}
+              src={doubleOven}
+              alt="double oven"
+            />
             <p className={'text-center'}>Double Oven</p>
           </div>
           <div className={'w-[33%] lg:w-[25%]'}>
-            <Image className="mx-auto" src={electricHob} alt="electric hob" />
+            <Image
+              className="mx-auto"
+              quality={100}
+              src={electricHob}
+              alt="electric hob"
+            />
             <p className={'text-center'}>Electric Hob</p>
           </div>
           <div className={'w-[33%] lg:w-[25%]'}>
-            <Image className="mx-auto" src={gasHob} alt="gas hob" />
+            <Image
+              className="mx-auto"
+              quality={100}
+              src={gasHob}
+              alt="gas hob"
+            />
             <p className={'text-center'}>Gas Hob</p>
           </div>
 
           <div className={'w-[33%] lg:w-[25%]'}>
-            <Image className="mx-auto" src={hoods} alt="hoods" />
+            <Image className="mx-auto" quality={100} src={hoods} alt="hoods" />
             <p className={'text-center'}>Hood</p>
           </div>
 
           <div className={'w-[33%] lg:w-[25%]'}>
-            <Image className="mx-auto" src={range} alt="range" />
+            <Image className="mx-auto" quality={100} src={range} alt="range" />
             <p className={'text-center'}>Range</p>
           </div>
 
           <div className={'w-[33%] lg:w-[25%]'}>
-            <Image className="mx-auto" src={Aga} alt="aga" />
+            <Image className="mx-auto" quality={100} src={Aga} alt="aga" />
             <p className={'text-center'}>AGA</p>
           </div>
         </div>
