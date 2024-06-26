@@ -53,7 +53,7 @@ const MainNavigation = () => {
         },
         {
           name: 'Home Improvement',
-          // path: '/home-improvement',
+          path: '/home-improvement',
         },
         {
           name: 'Waste clearance',

@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { AnimatePresence, LazyMotion, m } from 'framer-motion'
 import Icon_menu from '../../icons/Icon_menu'
 import Icon_close from '../../icons/Icon_close'
@@ -9,10 +9,14 @@ import Icon_down from '../../icons/Icon_down'
 const loadFeatures = () =>
   import('@/utilities/framerMotion/features').then((res) => res.default)
 
-const MobileNav = ({parameters: { nav, pathName }}) => {
+const MobileNav = ({ parameters: { nav, pathName } }) => {
   const [activeMainItem, setactiveMainItem] = useState('')
   const [activeSubItem, setactiveSubItem] = useState('')
   const [mobileIsOpen, setmobileIsOpen] = useState(false)
+
+  useEffect(() => {
+    setmobileIsOpen(false)
+  }, [pathName])
 
   const handleMainMenu = (path) => {
     if (path === activeMainItem) {
