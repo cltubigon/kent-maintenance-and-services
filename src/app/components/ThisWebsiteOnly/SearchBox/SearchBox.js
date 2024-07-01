@@ -16,10 +16,10 @@ const SearchBox = ({ children }) => {
         <Popup
           data={{
             setpopup,
-            mainContainer: 'bg-primary-900 bg-opacity-20 backdrop-blur-none',
             modalContainer: 'xl:max-w-[1024px] my-0',
             icon: 'hidden',
           }}
+          className="bg-secondary-900 bg-opacity-20 backdrop-blur-none"
         >
           <SearchBoxPopup setpopup={setpopup} />
         </Popup>

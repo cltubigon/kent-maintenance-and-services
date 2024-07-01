@@ -32,6 +32,7 @@ const GkgSection2 = () => {
             >
               <Image
                 src={hovered === id ? imgSrc.white : imgSrc.dark}
+                quality={100}
                 alt={name}
               />
               <p className={'text-lg md:text-xl font-bold text-center'}>
@@ -41,7 +42,7 @@ const GkgSection2 = () => {
           )
         })}
         {popup && (
-          <Popup data={{ setpopup, mainContainer: 'backdrop-blur-[unset]' }}>
+          <Popup data={{ setpopup }} className="backdrop-blur-[unset]">
             <div className={'py-5 px-5'}>
               <p className={''}>{popup?.description}</p>
             </div>

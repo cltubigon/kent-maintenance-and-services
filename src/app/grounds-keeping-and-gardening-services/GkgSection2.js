@@ -34,7 +34,7 @@ const GkgSection2 = () => {
           )
         })}
         {popup && (
-          <Popup data={{ setpopup, mainContainer: 'backdrop-blur-[unset]' }}>
+          <Popup data={{ setpopup }} className="backdrop-blur-[unset]">
             <div className={'py-5 px-5'}>
               <p className={''}>{popup?.description}</p>
             </div>
