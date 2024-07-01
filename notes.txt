@@ -5,3 +5,10 @@
 '2xl': '1536px',
 
 container: container md:px-6 lg:px-10 xl:px-0
+
+git push -u origin <branch>
+git clone -b staging  https://github.com/cltubigon/kent-maintenance-and-services.git
+git switch <branch>
+
+git checkout master     // To switch to master branch
+git merge <branch>      // First, must be in the master branch
