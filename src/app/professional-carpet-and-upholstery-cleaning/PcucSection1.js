@@ -13,8 +13,9 @@ const PcucSection1 = () => {
           </h3>
           <p className={'mt-5'}>
             Keeping your carpets clean requires more than just vacuuming alone.
-            To get a deep clean, Xtraclean use the latest state-of-the-art
-            equipment and solutions for the best results everytime.
+            To get a deep clean, Kent Maintenance and Services Limited use the
+            latest state-of-the-art equipment and solutions for the best results
+            every-time
           </p>
         </div>
         <div className={'grid grid-cols-1 md:grid-cols-3 gap-10 mt-16'}>
@@ -55,8 +56,7 @@ const PcucSection1 = () => {
             </p>
             <p className={'mt-5'}>
               Breathe in the freshly cleaned carpets with the knowledge that
-              your floor covers are now deep cleaned and sanitised, good enough
-              to eat off!
+              your floor covers are now deep cleaned and sanitised.
             </p>
           </div>
         </div>

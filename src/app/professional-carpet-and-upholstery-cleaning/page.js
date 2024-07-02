@@ -6,6 +6,7 @@ import PcucSection4 from './PcucSection4'
 import Icon_right from '../components/icons/Icon_right'
 import Button from '../components/Button'
 import Link from 'next/link'
+import PcucSection5 from './PcucSection5'
 
 const PcucPage = () => {
   return (
@@ -20,8 +21,8 @@ const PcucPage = () => {
             We provide a comprehensive carpet cleaning service and can cover
             everything from single rooms to whole properties. Our carpet
             cleaning service is available to both domestic and commercial
-            customers across Middlesbrough. When it comes to carpet cleaning, we
-            can cover a number of areas such as:
+            customers across Kent. When it comes to carpet cleaning, we can
+            cover a number of areas such as:
           </p>
           <div className={'grid grid-cols-2 gap-2 md:grid-cols-3 mt-5'}>
             <div className={'flex items-center gap-2'}>
@@ -80,9 +81,9 @@ const PcucPage = () => {
             </h3>
             <p className={'mt-5'}>
               Should you require more information on the services we offer to
-              our customers across Middlesbrough or if you’d like to book us for
-              a job, then be sure to get in touch. One of our team is always on
-              hand to answer questions and deal with enquiries.
+              our customers across Kent or if you’d like to book us for a job,
+              then be sure to get in touch. One of our team is always on hand to
+              answer questions and deal with enquiries.
             </p>
           </div>
           <div className={'bg-secondary p-8 rounded-md  text-white'}>
@@ -95,12 +96,12 @@ const PcucPage = () => {
             </h3>
             <p className={'mt-5'}>
               When it comes to finding carpet and upholstery cleaners, our team
-              at Carpet Fresh North East are here to offer a fantastic service.
-              From leather cleaning to stain removal, we’re here to take care of
-              all your cleaning needs. So, if you’re in search of ‘carpet
-              cleaning Middlesbrough’ let none other than our fully trained
-              experts at Carpet Fresh North East provide you with an efficient
-              cleaning service.
+              at Kent maintenance & Services are here to offer a fantastic
+              service. From leather cleaning to stain removal, we’re here to
+              take care of all your cleaning needs. So, if you’re in search of
+              ‘carpet cleaning or upholstery cleaning Kent ’ let none other than
+              our fully trained experts at Kent Maintenance and Services provide
+              you with an efficient cleaning service.
             </p>
           </div>
         </div>
@@ -216,28 +217,29 @@ const PcucPage = () => {
               One-Off Deep Cleans
             </h1>
             <p className={'mt-5'}>
-              We have various commercial clients across the North East, so no
-              matter if you’re looking for a one-off deep clean of your
-              commercial property or to have your carpets thoroughly cleaned, be
-              sure to get in touch with us today for a no-obligation quote.
+              We have various commercial clients across Kent & South East
+              England, so no matter if you’re looking for a one-off deep clean
+              of your commercial property or to have your carpets thoroughly
+              cleaned, be sure to get in touch with us today for a no-obligation
+              quote.
             </p>
           </div>
           <div className={'w-full lg:w-[85%] mt-10'}>
             <h3 className={'font-tinos text-3xl md:text-4xl font-bold'}>
-              Professional Upholstery Cleaning in Middlesbrough
+              Professional Upholstery Cleaning in Kent
             </h3>
             <p className={'mt-5'}>
               Here at{' '}
               <Link
-                href="https://www.carpetfreshnortheast.co.uk/"
+                href="/"
                 target="_blank"
                 className="text-primary underline font-semibold"
               >
-                Carpet Fresh North East Ltd
+                Kent Maintenance and Services Limited
               </Link>
               , we provide professional upholstery cleaning to our domestic and
-              commercial customers in Middlesbrough and across the surrounding
-              areas. When it comes to upholstery, we can clean any type of item,
+              commercial customers in Kent and across the surrounding areas.
+              When it comes to upholstery, we can clean any type of item,
               whether it’s sofas, rugs, chairs or something else. We use a range
               of high-quality cleaning solutions and a number of machines to
               achieve the highest level of finish for upholstery cleaning. Our
@@ -246,13 +248,11 @@ const PcucPage = () => {
             </p>
             <p className={'mt-5'}>
               We undertake all types of work and regularly work with both
-              homeowners and business owners in and around Middlesbrough. Having
-              carried out upholstery cleaning for many years, we have developed
-              a well-known reputation for the service we provide. If you’re
-              looking for a local upholstery cleaner in Middlesbrough, then be
-              sure to contact Carpet Fresh North East Ltd for a quote. If you
-              would like more information on Professional Cleaning check out our
-              recent blog.
+              homeowners and business owners in and around Kent. Having carried
+              out upholstery cleaning for many years, we have developed a
+              well-known reputation for the service we provide. If you’re
+              looking for a local upholstery cleaner in kent, then be sure to
+              contact us for a quote.
             </p>
           </div>
           <div className={'w-full lg:w-[85%] mt-10'}>
@@ -318,15 +318,15 @@ const PcucPage = () => {
               please be sure to call our team today. A lot of the time, you will
               see a huge improvement in your upholstery, meaning it can save you
               money by not having to replace your goods. So for all your
-              cleaning needs across Middlesbrough, please be sure to give our
-              team a call today.
+              cleaning needs across Kent, please be sure to give our team a call
+              today.
             </p>
             <p className={'mt-5'}>
-              For carpet and upholstery cleaning in Middlesbrough, call on
-              Carpet Fresh North East. We have all your cleaning needs covered
-              and our fully trained team will be happy to discuss our cleaning
-              processes with you and what goes into our stain removal and
-              cleaning service.
+              For carpet and upholstery cleaning in Kent, call on Kent
+              Maintenance and Services Limited. We have all your cleaning needs
+              covered and our fully trained team will be happy to discuss our
+              cleaning processes with you and what goes into our stain removal
+              and cleaning service.
             </p>
           </div>
         </div>
@@ -345,8 +345,8 @@ const PcucPage = () => {
             Our professional carpet and upholstery cleaners can come to both
             your home and commercial premises, so no matter if you’re looking to
             remove unwanted pet smells or a deep clean of your office furniture
-            and upholstery, our team at Carpet Fresh North East are here for
-            you.
+            and upholstery, our team at Kent Maintenance and Services Limited
+            are here for you.
           </p>
           <p className={'mt-5'}>
             With our cleaning service, we’ll ensure that your carpet &
@@ -358,11 +358,10 @@ const PcucPage = () => {
             upholstery and carpets a new lease of life.
           </p>
           <p className={'mt-5'}>
-            We cover Middlesbrough and the surrounding areas of the North East
-            of England including East Cleveland, so please waste no time and be
-            sure to call us for your carpets and upholstery cleaning. No job is
-            ever too small or too large for us. Get your free no-obligation
-            quote today.
+            We cover Kentand the surrounding areas of the south east of England,
+            so please waste no time and be sure to call us for your carpets and
+            upholstery cleaning. No job is ever too small or too large for us.
+            Get your free no-obligation quote today.
           </p>
         </div>
       </div>
@@ -370,6 +369,7 @@ const PcucPage = () => {
       <PcucSection1a />
       <PcucSection2 />
       <PcucSection4 />
+      <PcucSection5 />
     </>
   )
 }

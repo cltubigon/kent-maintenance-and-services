@@ -6,10 +6,15 @@ import protect from './images/9556176d-8227-48bf-86b3-44f0913badb7_result.jpg'
 
 const PcucSection1a = () => {
   return (
-    <div className={'py-10 md:py-[80px] bg-neutral-100 bg-[url("/public-images/texture.png")]'}>
+    <div
+      className={
+        'py-10 md:py-[80px] bg-neutral-100 bg-[url("/public-images/texture.png")]'
+      }
+    >
       <div className={'container md:px-6 lg:px-10 xl:px-0'}>
         <p className={'font-tinos text-3xl md:text-4xl font-bold text-center'}>
-          Give your carpets the deepest clean with Xtraclean
+          Give your carpets the deepest clean with Kent Maintenance and Services
+          Limited
         </p>
         <div
           className={

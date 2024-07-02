@@ -6,6 +6,7 @@ import stainRemoval from './images/spot-and-stain-removal.png'
 import vacuuming from './images/vacuuming.png'
 import protection from './images/protection.png'
 import Button from '../components/Button'
+import Link from 'next/link'
 
 const PcucSection2 = () => {
   return (
@@ -97,13 +98,10 @@ const PcucSection2 = () => {
             <p className={'text-sm italic font-semibold'}>extra costs apply</p>
           </div>
         </div>
-        <div
-          className={
-            'flex flex-col md:flex-row gap-2 md:gap-4 items-center justify-center mt-16'
-          }
-        >
-          <Button>Get a quote</Button>
-          <Button variant="secondary">Request a callback</Button>
+        <div className={'w-fit mx-auto'}>
+          <Link href={'/contact-us'}>
+            <Button className="mt-16">Get a quote</Button>
+          </Link>
         </div>
       </div>
     </div>

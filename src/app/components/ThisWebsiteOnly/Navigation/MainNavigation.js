@@ -19,10 +19,6 @@ const MainNavigation = () => {
   const nav = [
     { path: '/', name: 'Home' },
     {
-      name: 'About',
-      path: '/about',
-    },
-    {
       name: 'Cleaning services',
       // path: '/cleaning-services',
       array: [
@@ -54,10 +50,6 @@ const MainNavigation = () => {
         {
           name: 'Home Improvement',
           path: '/home-improvement',
-        },
-        {
-          name: 'Waste clearance',
-          // path: '/waste-clearance',
         },
       ],
     },

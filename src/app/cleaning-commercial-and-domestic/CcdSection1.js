@@ -2,6 +2,8 @@ import Icon_star from '../components/icons/Icon_star'
 import Button from '../components/Button'
 import Image from 'next/image'
 import girlCleaning from './images/girl-cleaning.jpg'
+import Link from 'next/link'
+import PhoneNumber from '../components/ThisWebsiteOnly/PhoneNumber'
 
 const CcdSection1 = () => {
   return (
@@ -12,25 +14,18 @@ const CcdSection1 = () => {
             'text-4xl md:text-5xl lg:text-6xl font-tinos font-bold mb-10 md:mb-[62px] text-center mx-auto w-full lg:w-[60%]'
           }
         >
-          Domestic Cleaning Edinburgh
+          Commercial & Domestic cleaning Kent
         </h1>
-        <p
-          className={
-            'bg-secondary-400 rounded-tr-md rounded-tl-md w-fit px-5 py-2 mx-auto text-white text-lg md:text-xl '
-          }
-        >
-          Our local office is open now
-        </p>
         <div
           className={
             'bg-secondary-700 py-4 px-7 md:py-8 md:px-14 rounded-md w-full lg:w-[853px] mx-auto text-white'
           }
         >
           <p className={'text-xl md:text-2xl leading-9 text-center'}>
-            Maid2Clean specialises in maintaining homes around Scotland,
-            providing incredible domestic cleaning services in Edinburgh and
-            beyond. No matter the requirements, our cleaners work as efficiently
-            as possible to get the job done to the highest standard.
+            Kent Maintenance specialises in maintaining homes around Kent,
+            providing incredible domestic & commercial cleaning services in Kent
+            and beyond. No matter the requirements, our cleaners work as
+            efficiently as possible to get the job done to the highest standard.
           </p>
           <div
             className={
@@ -48,16 +43,18 @@ const CcdSection1 = () => {
               96% of clients recommend our service
             </p>
           </div>
-          <div
+          <div className={'w-fit mx-auto'}>
+            <Link href={'/contact-us'}>
+              <Button className="mt-6">Book your cleaner online</Button>
+            </Link>
+          </div>
+          <p
             className={
-              'flex flex-col md:flex-row justify-center items-center gap-3 mt-6'
+              'font-tinos text-3xl md:text-3xl text-balance text-center mt-8 font-semibold'
             }
           >
-            <Button>Book your cleaner online</Button>
-            <Button>Enquire about our services</Button>
-          </div>
-          <p className={'font-tinos text-3xl md:text-3xl text-balance text-center mt-8 font-semibold'}>
-            For a free personalised quote, call Maid2Clean on 0131 510 6401
+            For a free personalised quote, call or WhatsApp us on{' '}
+            <PhoneNumber className="text-primary" />
           </p>
         </div>
       </div>

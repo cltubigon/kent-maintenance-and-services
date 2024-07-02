@@ -2,7 +2,7 @@ import React from 'react'
 import Button from '../components/Button'
 // import texture from './images/texture.png'
 
-const CcdSection4 = () => {
+const PcucSection5 = () => {
   return (
     <div className={'bg-primary'}>
       <div
@@ -20,7 +20,7 @@ const CcdSection4 = () => {
               'font-tinos text-3xl md:text-4xl font-semibold text-center'
             }
           >
-            How much does a house cleaner cost in Kent?
+            How much does carpet and upholstery cleaning cost in Kent ?
           </h2>
 
           <table className="table-auto w-full mx-auto lg:w-[698px] my-6">
@@ -33,26 +33,26 @@ const CcdSection4 = () => {
             <tbody>
               <tr>
                 <td className="bg-white text-paragraph p-2 border border-primary">
-                  Weekly clean
+                  Carpet cleaning- 2 Standard size room
                 </td>
                 <td className="bg-white text-paragraph p-2 border border-primary">
-                  From £19.99 per hour
-                </td>
-              </tr>
-              <tr>
-                <td className="bg-white text-paragraph p-2 border border-primary">
-                  Fortnightly
-                </td>
-                <td className="bg-white text-paragraph p-2 border border-primary">
-                  £24.99 per hour
+                  £85
                 </td>
               </tr>
               <tr>
                 <td className="bg-white text-paragraph p-2 border border-primary">
-                  7 hours max
+                  Carpet cleaning- 3 standard size rooms
                 </td>
                 <td className="bg-white text-paragraph p-2 border border-primary">
-                  £24.99 per hour
+                  £105
+                </td>
+              </tr>
+              <tr>
+                <td className="bg-white text-paragraph p-2 border border-primary">
+                  Upholstery.
+                </td>
+                <td className="bg-white text-paragraph p-2 border border-primary">
+                  Please contact us.
                 </td>
               </tr>
             </tbody>
@@ -70,4 +70,4 @@ const CcdSection4 = () => {
   )
 }
 
-export default CcdSection4
+export default PcucSection5
