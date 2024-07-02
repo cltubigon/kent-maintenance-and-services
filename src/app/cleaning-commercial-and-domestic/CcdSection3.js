@@ -60,7 +60,12 @@ fortnightly service. Our prices start from just £19.99 per hour.`}
           <p className={'text-primary text-2xl font-bold mt-3'}>
             £40 booking fee + £24.99 per hour
           </p>
-          <Button className="mt-5">Book online</Button>
+
+          <div className={'w-fit'}>
+            <Link href="/contact-us">
+              <Button className="mt-5">Book online</Button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

@@ -230,11 +230,7 @@ const PcucPage = () => {
             </h3>
             <p className={'mt-5'}>
               Here at{' '}
-              <Link
-                href="/"
-                target="_blank"
-                className="text-primary underline font-semibold"
-              >
+              <Link href="/" className="text-primary underline font-semibold">
                 Kent Maintenance and Services Limited
               </Link>
               , we provide professional upholstery cleaning to our domestic and

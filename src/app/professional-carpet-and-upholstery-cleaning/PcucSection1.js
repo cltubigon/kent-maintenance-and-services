@@ -1,5 +1,6 @@
 import PcucCircledNumber from './PcucCircledNumber'
 import Button from '../components/Button'
+import Link from 'next/link'
 
 const PcucSection1 = () => {
   return (
@@ -60,15 +61,10 @@ const PcucSection1 = () => {
             </p>
           </div>
         </div>
-        <div
-          className={
-            'flex flex-col md:flex-row gap-2 md:gap-4 items-center justify-center mt-16'
-          }
-        >
-          <Button className="">Get a quote</Button>
-          <Button className="" variant="secondary">
-            Request a callback
-          </Button>
+        <div className={'w-fit mx-auto'}>
+          <Link href={'/contact-us'}>
+            <Button className="mt-16">Get a quote</Button>
+          </Link>
         </div>
       </div>
     </div>

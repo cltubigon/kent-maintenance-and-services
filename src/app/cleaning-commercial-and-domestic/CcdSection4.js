@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../components/Button'
+import Link from 'next/link'
 // import texture from './images/texture.png'
 
 const CcdSection4 = () => {
@@ -61,9 +62,14 @@ const CcdSection4 = () => {
           <p className={'w-full mx-auto lg:w-[698px] text-center'}>
             Prices may vary depending on the area, minimum hours may also apply.
           </p>
-          <Button variant="light" className="mx-auto mt-10">
-            Book online
-          </Button>
+
+          <div className={'w-fit mx-auto'}>
+            <Link href="/contact-us">
+              <Button variant="light" className="mx-auto mt-10">
+                Book online
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

@@ -12,7 +12,11 @@ const PcucSection1a = () => {
       }
     >
       <div className={'container md:px-6 lg:px-10 xl:px-0'}>
-        <p className={'font-tinos text-3xl md:text-4xl font-bold text-center'}>
+        <p
+          className={
+            'font-tinos text-3xl md:text-4xl font-bold text-center text-balance'
+          }
+        >
           Give your carpets the deepest clean with Kent Maintenance and Services
           Limited
         </p>

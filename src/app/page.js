@@ -19,9 +19,13 @@ const Homepage = () => {
           >
             Kent Maintenance & Services Limited
           </h1>
-          <Button className="mx-auto mt-5" variant="light">
-            One Call Does All
-          </Button>
+          <div className={'w-fit mx-auto'}>
+            <Link href="tel:08000025962">
+              <Button className="mx-auto mt-5" variant="light">
+                One Call Does All
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
       <div className={'py-10 md:py-[80px]'}>
