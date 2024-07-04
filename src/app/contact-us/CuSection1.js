@@ -38,10 +38,10 @@ const CuSection1 = () => {
               <Icon_phone className="size-4" />
               <PhoneNumber className={'text-primary'} />
             </div>
-            <p>
+            {/* <p>
               Alpha Cleaning Services
               <br />8 Turner Close, Kemsley, Sittingbourne, kent – ME102UE
-            </p>
+            </p> */}
           </div>
         </div>
 

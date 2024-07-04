@@ -80,12 +80,6 @@ export const cardData = [
   },
   {
     id: 9,
-    imgSrc: { dark: smokealarm, white: smokealarmwhite },
-    name: 'Smoke Alarm',
-    Description: SmokeAlarm,
-  },
-  {
-    id: 10,
     imgSrc: { dark: residentialpainting, white: residentialpaintingwhite },
     name: 'Residential Painting',
     Description: ResidentialPainting,

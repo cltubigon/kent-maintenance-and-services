@@ -28,8 +28,7 @@ fortnightly service. Our prices start from just £19.99 per hour.`}
           <div className={'flex gap-3 mt-3'}>
             <Icon_check2 className="text-primary min-w-5 min-h-5" />
             <p className={'text-paragraph'}>
-              Insured, thoroughly vetted and local house cleaners around
-              Edinburgh.
+              Cleaning domestic, change Edinburgh to Kent
             </p>
           </div>
         </div>
