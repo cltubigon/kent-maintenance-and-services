@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Icon_phone from '../components/icons/Icon_phone'
 import Form from './Form'
 import Icon_email from '../components/icons/Icon_email'
+import PhoneNumber from '../components/ThisWebsiteOnly/PhoneNumber'
 
 const CuSection1 = () => {
   return (
@@ -20,7 +21,9 @@ const CuSection1 = () => {
           className={'flex flex-col w-full lg:min-w-[390px] lg:max-w-[390px]'}
         >
           <Divider className="w-[50px] ml-0" />
-          <p className={'font-tinos text-4xl md:text-5xl font-bold mt-4'}>Contact</p>
+          <p className={'font-tinos text-4xl md:text-5xl font-bold mt-4'}>
+            Contact
+          </p>
           <div className={'text-paragraph'}>
             <div className={'flex my-5 gap-2 items-center'}>
               <Icon_email className="size-5" />
@@ -33,25 +36,12 @@ const CuSection1 = () => {
             </div>
             <div className={'flex my-5 gap-2 items-center'}>
               <Icon_phone className="size-4" />
-              <Link href="tel:08000025962" className="text-primary">
-                0800 002 5962
-              </Link>
+              <PhoneNumber className={'text-primary'} />
             </div>
             <p>
               Alpha Cleaning Services
               <br />8 Turner Close, Kemsley, Sittingbourne, kent – ME102UE
             </p>
-          </div>
-          <div className={'flex items-center text-white gap-4 mt-5'}>
-            <div className={'relative size-[35px] rounded-md bg-[#3B5998]'}>
-              <Icon_facebook2 className="absolute right-0 left-0 bottom-0 top-0 m-auto" />
-            </div>
-            <div className={'relative size-[35px] rounded-md bg-[#CD201F]'}>
-              <Icon_youtube className="size-6 absolute right-0 left-0 bottom-0 top-0 m-auto" />
-            </div>
-            <div className={'relative size-[35px] rounded-md bg-[#DD4B39]'}>
-              <Icon_googleplus className="size-6 absolute right-0 left-0 bottom-0 top-0 m-auto" />
-            </div>
           </div>
         </div>
 

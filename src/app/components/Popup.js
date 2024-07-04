@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 'use client'
 import React, { useEffect, useState } from 'react'
 import Icon_close from './icons/Icon_close'
@@ -52,7 +53,7 @@ const Popup = ({ children, ...props }) => {
   return (
     <div
       className={twMerge(
-        'flex fixed left-0 py-4 md:py-10 px-2 top-0 w-full h-screen max-h-screen bg-neutral-500 bg-opacity-25 backdrop-blur-sm overflow-y-auto z-50',
+        'flex fixed left-0 py-4 md:py-10 px-2 top-0 w-full h-screen max-h-screen bg-neutral-500 bg-opacity-25 backdrop-blur-sm overflow-y-auto z-[999]',
         props?.className
       )}
       onClick={bgClose}

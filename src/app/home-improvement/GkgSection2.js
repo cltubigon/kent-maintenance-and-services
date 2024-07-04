@@ -7,9 +7,13 @@ import Image from 'next/image'
 const GkgSection2 = () => {
   const [popup, setpopup] = useState(null)
   const [hovered, sethovered] = useState(null)
-  const handleClick = ({ id, description }) => {
-    setpopup({ id, description })
+  const handleClick = (id) => {
+    setpopup(id)
   }
+
+  const NewDescription = cardData?.find((item) => item?.id === popup)
+  const DescComponent = NewDescription?.Description
+
   return (
     <div className="pb-10 md:pb-[80px]">
       <div
@@ -17,12 +21,11 @@ const GkgSection2 = () => {
           'container md:px-6 lg:px-10 xl:px-0 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4'
         }
       >
-        {/* Image */}
         {cardData?.map((card, index) => {
-          const { id, imgSrc, name, description } = card
+          const { id, imgSrc, name } = card
           return (
             <div
-              onClick={() => handleClick({ id, description })}
+              onClick={() => handleClick(id)}
               onMouseEnter={() => sethovered(id)}
               onMouseLeave={() => sethovered(null)}
               key={index}
@@ -42,9 +45,12 @@ const GkgSection2 = () => {
           )
         })}
         {popup && (
-          <Popup data={{ setpopup }} className="backdrop-blur-[unset]">
+          <Popup
+            data={{ setpopup, modalContainer: 'max-w-[850px]' }}
+            className="backdrop-blur-[unset]"
+          >
             <div className={'py-5 px-5'}>
-              <p className={''}>{popup?.description}</p>
+              <DescComponent />
             </div>
           </Popup>
         )}

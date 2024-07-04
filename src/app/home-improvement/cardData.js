@@ -18,76 +18,76 @@ import smokealarm from './images/smoke-alarms.png'
 import smokealarmwhite from './images/smoke-alarms-white.png'
 import residentialpainting from './images/residential-painting.png'
 import residentialpaintingwhite from './images/residential-painting-white.png'
+import PropertyMaintenance from './property-maintenance/PropertyMaintenance'
+import Fencing from './fencing/Fencing'
+import TilingAndFlooring from './tiling-and-flooring/TilingAndFlooring'
+import FurnitureAssembly from './furniture-assembly/FurnitureAssembly'
+import HouseRepairs from './house-repairs/HouseRepairs'
+import DecksAndPergolas from './decks-and-pergolas/DecksAndPergolas'
+import GutterCleaning from './gutter-cleaning/GutterCleaning'
+import HighPressureCleaning from './high-pressure-cleaning/HighPressureCleaning'
+import SmokeAlarm from './smoke-alarm/SmokeAlarm'
+import ResidentialPainting from './residential-painting/ResidentialPainting'
 
 export const cardData = [
   {
     id: 1,
     imgSrc: { dark: propertyMaintenance, white: propertyMaintenancewhite },
     name: 'Property Maintenance',
-    description:
-      'Eos doloremque alias et voluptas dolor ab quisquam ipsum est laudantium rerum. Ex laborum nisi est saepe ipsa rem ipsam vitae a cumque autem non quia unde. Et aliquid impedit est vero soluta qui dolor ratione.',
+    Description: PropertyMaintenance,
   },
   {
     id: 2,
     imgSrc: { dark: fencing, white: fencingwhite },
     name: 'Fencing',
-    description:
-      'Eos doloremque alias et voluptas dolor ab quisquam ipsum est laudantium rerum. Ex laborum nisi est saepe ipsa rem ipsam vitae a cumque autem non quia unde. Et aliquid impedit est vero soluta qui dolor ratione.',
+    Description: Fencing,
   },
   {
     id: 3,
     imgSrc: { dark: tilingandflooring, white: tilingandflooringwhite },
     name: 'Tiling and Flooring',
-    description:
-      'Eos doloremque alias et voluptas dolor ab quisquam ipsum est laudantium rerum. Ex laborum nisi est saepe ipsa rem ipsam vitae a cumque autem non quia unde. Et aliquid impedit est vero soluta qui dolor ratione.',
+    Description: TilingAndFlooring,
   },
   {
     id: 4,
     imgSrc: { dark: furnitureassembly, white: furnitureassemblywhite },
     name: 'Furniture Assembly',
-    description:
-      'Eos doloremque alias et voluptas dolor ab quisquam ipsum est laudantium rerum. Ex laborum nisi est saepe ipsa rem ipsam vitae a cumque autem non quia unde. Et aliquid impedit est vero soluta qui dolor ratione.',
+    Description: FurnitureAssembly,
   },
   {
     id: 5,
     imgSrc: { dark: houserepairs, white: houserepairswhite },
     name: 'House Repairs',
-    description:
-      'Eos doloremque alias et voluptas dolor ab quisquam ipsum est laudantium rerum. Ex laborum nisi est saepe ipsa rem ipsam vitae a cumque autem non quia unde. Et aliquid impedit est vero soluta qui dolor ratione.',
+    Description: HouseRepairs,
   },
   {
     id: 6,
     imgSrc: { dark: decksandpergolas, white: decksandpergolaswhite },
     name: 'Decks and Pergolas',
-    description:
-      'Eos doloremque alias et voluptas dolor ab quisquam ipsum est laudantium rerum. Ex laborum nisi est saepe ipsa rem ipsam vitae a cumque autem non quia unde. Et aliquid impedit est vero soluta qui dolor ratione.',
+    Description: DecksAndPergolas,
   },
   {
     id: 7,
     imgSrc: { dark: guttercleaning, white: guttercleaningwhite },
     name: 'Gutter Cleaning',
-    description:
-      'Eos doloremque alias et voluptas dolor ab quisquam ipsum est laudantium rerum. Ex laborum nisi est saepe ipsa rem ipsam vitae a cumque autem non quia unde. Et aliquid impedit est vero soluta qui dolor ratione.',
+    Description: GutterCleaning,
   },
   {
     id: 8,
     imgSrc: { dark: highpressurecleaning, white: highpressurecleaningwhite },
     name: 'High Pressure Cleaning',
-    description:
-      'Eos doloremque alias et voluptas dolor ab quisquam ipsum est laudantium rerum. Ex laborum nisi est saepe ipsa rem ipsam vitae a cumque autem non quia unde. Et aliquid impedit est vero soluta qui dolor ratione.',
+    Description: HighPressureCleaning,
   },
   {
     id: 9,
     imgSrc: { dark: smokealarm, white: smokealarmwhite },
     name: 'Smoke Alarm',
-    description:
-      'Eos doloremque alias et voluptas dolor ab quisquam ipsum est laudantium rerum. Ex laborum nisi est saepe ipsa rem ipsam vitae a cumque autem non quia unde. Et aliquid impedit est vero soluta qui dolor ratione.',
+    Description: SmokeAlarm,
   },
   {
     id: 10,
     imgSrc: { dark: residentialpainting, white: residentialpaintingwhite },
     name: 'Residential Painting',
-    description:
-      'Eos doloremque alias et voluptas dolor ab quisquam ipsum est laudantium rerum. Ex laborum nisi est saepe ipsa rem ipsam vitae a cumque autem non quia unde. Et aliquid impedit est vero soluta qui dolor ratione.',
+    Description: ResidentialPainting,
   },
 ]
