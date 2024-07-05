@@ -69,19 +69,21 @@ const MainNavigation = () => {
         >
           <MobileNav parameters={{ nav: [...nav, ...nav2], pathName }} />
           <DesktopNav parameters={{ nav, pathName }} />
-          <div className={'flex w-full lg:w-[unset] relative'}>
-            <Link
-              href={'/'}
-              className="absolute top-[-50px] left-[-28px] right-0 mx-auto md:left-[-80px]"
-            >
-              <Image
-                src={mainLogo}
-                quality={100}
-                priority
-                className="max-w-[180px] mx-auto"
-                alt="Love Transfusion logo"
-              />
-            </Link>
+          <div className={'flex w-full bg-red-300 lg:w-[unset] relative'}>
+              <div className={'w-fit absolute top-[-50px] -left-[28px] right-0 mx-auto md:left-[-80px]'}>
+              <Link
+                href={'/'}
+                className=""
+              >
+                <Image
+                  src={mainLogo}
+                  quality={100}
+                  priority
+                  className="max-w-[180px] mx-auto"
+                  alt="Love Transfusion logo"
+                />
+              </Link>
+              </div>
           </div>
           <DesktopNav parameters={{ nav: nav2, pathName }} />
         </div>

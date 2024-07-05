@@ -257,12 +257,12 @@ const PcucPage = () => {
             </h3>
             <p className={'mt-5'}>
               We provide a comprehensive upholstery cleaning service to our
-              customers in Middlesbrough and across the surrounding areas. Using
-              a range of leading industry products and tools, we’ll transform
-              your items from tired to refreshed. The results of upholstery
-              cleaning can be seen for themselves and we fully photograph and
-              document all work carried out. Some of the items we regularly
-              cover as part of upholstery cleaning are:
+              customers in Kent and across the surrounding areas. Using a range
+              of leading industry products and tools, we’ll transform your items
+              from tired to refreshed. The results of upholstery cleaning can be
+              seen for themselves and we fully photograph and document all work
+              carried out. Some of the items we regularly cover as part of
+              upholstery cleaning are:
             </p>
             <div className={'grid grid-cols-2 gap-2 md:grid-cols-3 mt-5'}>
               <div className={'flex items-center gap-2'}>

@@ -13,7 +13,7 @@ const PcucSection2 = () => {
     <div className="py-10 md:py-[80px]">
       <div className={'container md:px-6 lg:px-10 xl:px-0'}>
         <p className={'font-tinos text-3xl md:text-4xl font-bold text-center'}>
-          The Four Seasons Of Garden Care
+        The four stages of carpet cleaning.
         </p>
         <div
           className={

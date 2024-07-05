@@ -18,7 +18,7 @@ const PcucSection5 = () => {
         <div className={'container md:px-6 lg:px-10 xl:px-0'}>
           <h2
             className={
-              'font-tinos text-3xl md:text-4xl font-semibold text-center'
+              'font-tinos text-3xl md:text-4xl font-semibold text-center w-full md:w-[60%] md:mx-auto'
             }
           >
             How much does carpet and upholstery cleaning cost in Kent ?

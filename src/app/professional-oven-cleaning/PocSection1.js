@@ -67,11 +67,8 @@ const PocSection1 = () => {
               </div>
               <p className={'mt-5 w-full'}>
                 Using non-toxic, fume free, environmentally friendly cleaning
-                products your oven, hob, extractor, Cleaning Services Prices
-                Carpet cleaning- 2 Standard size room £85 Carpet cleaning- 3
-                standard size rooms £105 Upholstery. Please contact us.
-                microwave, Aga or Range will be cleaned back to near showroom
-                condition.
+                products your oven, hob, extractor, microwave, Aga or Range will
+                be cleaned back to near showroom condition.
               </p>
               <p className={'mt-5 w-full'}>
                 Regular deep cleaning will not only ensure your oven is in a
@@ -96,7 +93,7 @@ const PocSection1 = () => {
             information from you.
           </p>
           <p className={'text-primary text-2xl font-bold mt-10'}>
-            £40 booking fee + £24.99 per hour
+          Standard ovens starting from £99
           </p>
         </div>
       </div>

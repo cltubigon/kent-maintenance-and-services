@@ -28,7 +28,7 @@ fortnightly service. Our prices start from just £19.99 per hour.`}
           <div className={'flex gap-3 mt-3'}>
             <Icon_check2 className="text-primary min-w-5 min-h-5" />
             <p className={'text-paragraph'}>
-              Cleaning domestic, change Edinburgh to Kent
+              Insured, thoroughly vetted and local house cleaners around Kent.
             </p>
           </div>
         </div>
@@ -43,7 +43,7 @@ fortnightly service. Our prices start from just £19.99 per hour.`}
             is left completely clean throughout.
           </p>
           <p className={'text-paragraph'}>
-            The cleaning visit can be booked for up to 6 hours on a single day.
+            The cleaning visit can be booked for up to 7 hours on a single day.
             depending on the size and current condition of your home you may
             require more or less hours.
           </p>

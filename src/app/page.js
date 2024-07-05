@@ -31,21 +31,17 @@ const Homepage = () => {
       <div className={'py-10 md:py-[80px]'}>
         <div
           className={
-            'container md:px-6 lg:px-10 xl:px-0 grid grid-cols-1 max-w-[950px] gap-10'
+            'container md:px-6 lg:px-10 xl:px-0 grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10'
           }
         >
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 border-2 border-secondary p-5 md:p-10 rounded-md">
             <h3
               className={
                 'font-tinos text-[22px] max-sm:leading-7 md:text-[26px] mb-4 font-bold text-balance'
               }
             >
-              Kent Maintenance and Services LTD
+              Welcome to Kent Maintenance and Services LTD.
             </h3>
-            <p className={'text-paragraph'}>
-              Welcome to Kent Maintenance and Services LTD. Here on our website
-              you can find the various services that we offer
-            </p>
             <p className={'text-paragraph'}>
               Although all of what we have listed on our website we can do. We
               are also able to help out with other requests / services too. If
@@ -54,6 +50,8 @@ const Homepage = () => {
               member of our staff will be able to discuss this with you and let
               you know.
             </p>
+          </div>
+          <div className="flex flex-col gap-2 border-2 border-secondary p-5 md:p-10 rounded-md">
             <p className={'text-paragraph'}>
               We are based in Sittingbourne (ME10) & Canterbury (CT1) being
               located here we are able to cover most areas of Kent with no
