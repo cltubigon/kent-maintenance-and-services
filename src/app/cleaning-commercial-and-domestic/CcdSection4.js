@@ -53,7 +53,7 @@ const CcdSection4 = () => {
                   {'One off clean (7 hours max)'}
                 </td>
                 <td className="bg-white text-paragraph p-2 border border-primary">
-                  £40 booking fee + £24.99 per hour
+                  £25 booking fee + £24.99 per hour
                 </td>
               </tr>
             </tbody>

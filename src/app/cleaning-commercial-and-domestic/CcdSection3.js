@@ -56,9 +56,6 @@ fortnightly service. Our prices start from just £19.99 per hour.`}
             <PhoneNumber className="text-primary" />.
           </p>
           <p className={'text-paragraph'}>Still have a question?</p>
-          <p className={'text-primary text-2xl font-bold mt-3'}>
-            £40 booking fee + £24.99 per hour
-          </p>
 
           <div className={'w-fit'}>
             <Link href="/contact-us">

@@ -1,5 +1,3 @@
-
-
 const GkgSection1 = () => {
   return (
     <div className="py-10 md:py-[80px]">
@@ -19,7 +17,6 @@ const GkgSection1 = () => {
           cut and monthly hedge trim. Other gardens will demand much more
           involved attention. Here's how we can help you.`}
         </p>
-        
       </div>
     </div>
   )

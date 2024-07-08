@@ -106,6 +106,8 @@ const PcucPage = () => {
           </div>
         </div>
       </div>
+      <PcucSection4 />
+      <PcucSection5 />
       {/* Section3 */}
       <div className={'py-10 md:py-[80px]'}>
         <div className={'container md:px-6 lg:px-10 xl:px-0'}>
@@ -364,8 +366,6 @@ const PcucPage = () => {
       <PcucSection1 />
       <PcucSection1a />
       <PcucSection2 />
-      <PcucSection4 />
-      <PcucSection5 />
     </>
   )
 }
