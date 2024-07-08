@@ -11,4 +11,5 @@ git clone -b staging  https://github.com/cltubigon/kent-maintenance-and-services
 git switch <branch>
 
 git checkout master     // To switch to master branch
+git fetch origin
 git merge <branch>      // First, must be in the master branch
