@@ -48,7 +48,7 @@ const Footer = () => {
           <p className={'text-primary mb-4'}>Find us on</p>
           <div className={'flex gap-2 items-center'}>
             <Link
-              href={'https://www.facebook.com/profile.php?id=61557090986535'}
+              href={'https://www.facebook.com/profile.php?id=61565194952929&mibextid=LQQJ4d'}
               target="_blank"
             >
               <Icon_facebook2 />

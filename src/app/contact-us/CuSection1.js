@@ -1,7 +1,4 @@
 import Divider from '../components/Divider'
-import Icon_googleplus from '../components/icons/Icon_googleplus'
-import Icon_facebook2 from '../components/icons/Icon_facebook2'
-import Icon_youtube from '../components/icons/Icon_youtube'
 import Link from 'next/link'
 import Icon_phone from '../components/icons/Icon_phone'
 import Form from './Form'

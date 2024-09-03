@@ -61,15 +61,6 @@ const ClientLoginFallback = () => {
               <Icon_google className="size-6" />
               Google
             </div>
-            {/* <div
-              className={
-                'flex cursor-pointer rounded-md w-full justify-center shadow-sm border-[1px] py-[10px] px-3 border-[#D1D5DB] gap-2'
-              }
-              onClick={() => handleLoginWithOAuth('facebook')}
-            >
-              <Icon_facebook className="size-6 text-[#1977F3]" />
-              Facebook
-            </div> */}
           </div>
         </div>
       </form>
